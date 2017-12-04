@@ -1,13 +1,13 @@
 {
   "manifest_version": 2,
   "name": "mTranslator",
-  "description": "",
+  "description": "Translate the selected text when you press Ctrl + Q.",
   "homepage_url": "https://github.com/thiagommedeiros/mTranslator",
   "version": "1.0.0",
   "author": "Thiago M. Medeiros",
   "permissions": ["tabs", "http://*/*"],
   "content_scripts" : [{
     "matches" : ["http://*/*", "https://*/*"],
-    "js" : ["scripts/main.js"]
+    "js" : ["main.js"]
   }]
 }

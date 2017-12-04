@@ -1,9 +1,6 @@
 {
   "name": "mTranslator",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "scripts": {
-    "package": "cd src && zip -r ../package.zip * && cd .."
-  }
+  "main": "main.js",
+  "license": "MIT"
 }
